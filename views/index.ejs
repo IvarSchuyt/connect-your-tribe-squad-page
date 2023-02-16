@@ -1,1 +1,34 @@
-<%- include('./partials/head') %> <%- include('./partials/foot') %>
+<%- include('./partials/head') %>
+
+<main>
+  <section>
+    <!-- Hier komen de members -->
+    <% squad.members.forEach(member => { %>
+    <a
+      href="<%= member.website %>"
+      class="link-profile-card"
+      alt="link-profile-card"
+      target="_blank"
+    >
+      <article>
+        <% if (member.avatar) { %>
+        <img
+          src="<%= member.avatar %>"
+          alt="De avatar van <%= member.name %>"
+          class="avatar"
+        />
+        <% }else{ %>
+        <img
+          src="/placeholder.jpg"
+          alt="Placeholder avatar"
+          class="placeholder"
+        />
+        <% } %>
+        <h2><%= member.name %> <%= member.prefix %> <%= member.surname %></h2>
+      </article>
+    </a>
+    <% }) %>
+  </section>
+</main>
+
+<%- include('./partials/foot') %>
