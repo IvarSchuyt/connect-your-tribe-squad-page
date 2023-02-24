@@ -7,9 +7,6 @@
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
-  Node: Node is een JS-omgeving waarmee je server-side kan coderen.
-  Express: Express is een framework die we binnen node kunnen gebruiken. Met Express regelen we de verbinding tussen de FDND-API en onze site. We kunnen bijvoorbeeld met requests specifieke data uit de API halen.
-  Ejs: EJS is een codetaal. Met EJS deden we eigenlijk veel wat we voorheen met HTML deden, maar ook nieuwe dingen. We kunnen met EJS gegevens uit de API aanspreken door bijvoorbeeld <%= member.voorbeeld %> te gebruiken.
   * [Installatie](#installatie)
   * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
@@ -22,6 +19,9 @@
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+ Node: Node is een JS-omgeving waarmee je server-side kan coderen.
+  Express: Express is een framework die we binnen node kunnen gebruiken. Met Express regelen we de verbinding tussen de FDND-API en onze site. We kunnen bijvoorbeeld met requests specifieke data uit de API halen.
+  Ejs: EJS is een codetaal. Met EJS deden we eigenlijk veel wat we voorheen met HTML deden, maar ook nieuwe dingen. We kunnen met EJS gegevens uit de API aanspreken door bijvoorbeeld <%= member.voorbeeld %> te gebruiken.
 
 ## Installatie
 
